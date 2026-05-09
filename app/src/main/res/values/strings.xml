@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">App Template</string>
+    <string name="app_name">QR Code Generator</string>
+    <string name="type_url">URL</string>
+    <string name="type_text">Text</string>
+    <string name="label_url">URL</string>
+    <string name="label_text">Text</string>
+    <string name="hint_url">https://example.com</string>
+    <string name="hint_text">Enter any text…</string>
+    <string name="action_share">Share QR Code</string>
+    <string name="qr_code_desc">Generated QR code</string>
+    <string name="empty_hint">Enter a URL or text above to generate a QR code</string>
 </resources>

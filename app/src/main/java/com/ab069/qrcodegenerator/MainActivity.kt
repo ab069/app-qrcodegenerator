@@ -1,10 +1,11 @@
-package com.yourapp.template
+package com.ab069.qrcodegenerator
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.yourapp.template.ui.theme.AppTheme
+import com.ab069.qrcodegenerator.ui.screens.HomeScreen
+import com.ab069.qrcodegenerator.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AppTheme {
-                AppNavigation()
+                HomeScreen()
             }
         }
     }

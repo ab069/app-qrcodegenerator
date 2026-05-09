@@ -2,15 +2,14 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.kotlin.kapt)
 }
 
 android {
-    namespace = "com.yourapp.template"
+    namespace = "com.ab069.qrcodegenerator"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.yourapp.template"
+        applicationId = "com.ab069.qrcodegenerator"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -54,13 +53,8 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material.icons)
-    implementation(libs.androidx.navigation.compose)
+    implementation(libs.zxing.core)
     implementation(libs.kotlinx.coroutines.android)
-
-    // Room — uncomment when app needs local database
-    // implementation(libs.androidx.room.runtime)
-    // implementation(libs.androidx.room.ktx)
-    // kapt(libs.androidx.room.compiler)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
 }

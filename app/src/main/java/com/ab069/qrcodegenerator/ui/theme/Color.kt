@@ -1,4 +1,4 @@
-package com.yourapp.template.ui.theme
+package com.ab069.qrcodegenerator.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

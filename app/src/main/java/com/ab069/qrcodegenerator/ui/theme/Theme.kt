@@ -1,4 +1,4 @@
-package com.yourapp.template.ui.theme
+package com.ab069.qrcodegenerator.ui.theme
 
 import android.app.Activity
 import android.os.Build
